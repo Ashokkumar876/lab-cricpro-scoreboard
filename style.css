@@ -1,16 +1,68 @@
-/* Type your code here */
-
-
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+#backimg{
+	position: absolute;
+	z-index: -1;
+	margin-left: 1000px;
+	margin-top: 200px;
+	width: 900px;
+	height: 700px;
+	}
+	.footer{
+	display:flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
 	top: 750px;
-	margin-left: 80px;
+	margin-left: 50px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
-}
+	font-style: normal;
+	margin-top: -35%;
+	}
+	#logo{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 50px;
+	margin-right: 50px;
+	height: 60px;
+	}
+	#ICC{
+	text-shadow: 5px 5px 5px rgb(124, 122, 122);
+	font-size: 700px;
+	font: 5em sans-serif;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	#India {
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font: 2em sans-serif;
+	color: gray;
+	}
+	#Score{
+	background-color: rgb(245, 57, 43);
+	}
+	#india{
+	display: flex;
+	justify-content: flex-end;
+	}
+	td,th {
+	font-size: 25px;
+	padding: 10px;
+	}
+	#Inn{
+	text-align: left;
+	}
+	#table{
+	background-color: white;
+	margin-left: 50px;
+	}
+	#bat{
+	display: flex;
+	}
+	a{
+	cursor: pointer;
+	text-decoration: none;
+	}
+	
